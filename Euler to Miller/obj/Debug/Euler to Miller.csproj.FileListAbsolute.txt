@@ -1,0 +1,14 @@
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.exe.config
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.exe
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.pdb
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\bin\Debug\MathNet.Numerics.dll
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\bin\Debug\MathNet.Numerics.xml
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.csprojResolveAssemblyReference.cache
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler_to_Miller.Form1.resources
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler_to_Miller.Properties.Resources.resources
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.csproj.GenerateResource.Cache
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.exe
+C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.pdb
+D:\程序设计\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.exe.config
+D:\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.exe
+D:\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.pdb
