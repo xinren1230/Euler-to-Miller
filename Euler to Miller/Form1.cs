@@ -185,9 +185,9 @@ namespace Euler_to_Miller
         {
             try
             {
-                var fai = double.Parse(textBox1.Text);//注意var定义在方法内
-                var fai1 = double.Parse(textBox2.Text);
-                var fai2 = double.Parse(textBox3.Text);
+                var fai = double.Parse(textBox_theta.Text);//注意var定义在方法内
+                var fai1 = double.Parse(textBox_phi1.Text);
+                var fai2 = double.Parse(textBox_phi2.Text);
 
                 //创建A，B，C，D矩阵
                 double[] matrixA = new double[3] { Math.Cos(Math.PI * fai1 / 180) * Math.Cos(Math.PI * fai2 / 180) - Math.Sin(Math.PI * fai1 / 180) * Math.Sin(Math.PI * fai2 / 180) * Math.Cos(Math.PI * fai / 180), -Math.Sin(Math.PI * fai2 / 180) * Math.Cos(Math.PI * fai1 / 180) - Math.Sin(Math.PI * fai1 / 180) * Math.Cos(Math.PI * fai2 / 180) * Math.Cos(Math.PI * fai / 180) ,  Math.Sin(Math.PI * fai1 / 180) * Math.Sin(Math.PI * fai / 180)};
@@ -196,8 +196,8 @@ namespace Euler_to_Miller
                 //2个矩阵相乘，要注意矩阵乘法的维数要求
                 var m = matrixA;
                 var n= matrixB;
-                m = primecvt(m);
-                n = primecvt(n);
+                //m = primecvt(m);
+                //n = primecvt(n);
                 textBox7.Text = "(" + m[0].ToString() + "," + m[1].ToString() + "," + m[2].ToString() + ")" + "[" + n[0].ToString() + "," + n[1].ToString() + "," + n[2].ToString() + "]";
             }
             catch (Exception)
@@ -217,8 +217,8 @@ namespace Euler_to_Miller
                 double U = System.Convert.ToDouble(textBoxU.Text);
                 double V = System.Convert.ToDouble(textBoxV.Text);
                 double W = System.Convert.ToDouble(textBoxW.Text);
-                double fai=180*Math.Acos(L/(Math.Sqrt((Math.Pow(H,2)+Math.Pow(K,2)+Math.Pow(L,2)))))/Math.PI;
-                double fai1 = 180 * (Math.Asin((W / (Math.Sqrt((Math.Pow(U, 2) + Math.Pow(V, 2) + Math.Pow(W, 2))))) * ((Math.Sqrt((Math.Pow(H, 2) + Math.Pow(K, 2) + Math.Pow(L, 2))) / (Math.Pow(H, 2) + Math.Pow(K, 2)))))) / Math.PI;
+                double fai = 180 * Math.Acos(L / (Math.Sqrt((Math.Pow(H, 2) + Math.Pow(K, 2) + Math.Pow(L, 2))))) / Math.PI;
+                double fai1 = 180 * Math.Asin(W / Math.Sqrt(Math.Pow(U, 2) + Math.Pow(V, 2) + Math.Pow(W, 2)) * Math.Sqrt(Math.Pow(H, 2) + Math.Pow(K, 2) + Math.Pow(L, 2)) / Math.Sqrt(Math.Pow(H, 2) + Math.Pow(K, 2))) / Math.PI;
                 double fai2 = 180 * Math.Acos(K / (Math.Sqrt((Math.Pow(H, 2) + Math.Pow(K, 2))))) / Math.PI;
                 textBox7.Text = "φ1=" + fai1.ToString() + " φ=" + fai.ToString() + " φ2=" + fai2.ToString();
             }
@@ -231,9 +231,9 @@ namespace Euler_to_Miller
         {
             try
             {
-                var fai = double.Parse(textBox1.Text);//注意var定义在方法内
-                var fai1 = double.Parse(textBox2.Text);
-                var fai2 = double.Parse(textBox3.Text);
+                var fai = double.Parse(textBox_theta.Text);//注意var定义在方法内
+                var fai1 = double.Parse(textBox_phi1.Text);
+                var fai2 = double.Parse(textBox_phi2.Text);
                 var ca = double.Parse(textBox4.Text);
 
                 //创建A，B，C，D矩阵
@@ -259,9 +259,9 @@ namespace Euler_to_Miller
                 {
                     n[i] = resultN2[i][0];
                 }
-                MessageBox.Show("1");
-                m = primecvt(m);
-                n = primecvt(n);
+                //MessageBox.Show("1");
+                //m = primecvt(m);
+                //n = primecvt(n);
 
                 textBox7.Text = "(" + m[0].ToString() + "," + m[1].ToString() + "," + m[2].ToString() + "," + m[3].ToString() + ")" + "[" + n[0].ToString() + "," + n[1].ToString() + "," + n[2].ToString() + "," + n[3].ToString() + "]";
 
@@ -271,6 +271,21 @@ namespace Euler_to_Miller
             {
                 MessageBox.Show("Unexpected error");
             }
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Author: Xinren Chen (陈信任) email:cxr1230@foxmail.com");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
 
         }
     }

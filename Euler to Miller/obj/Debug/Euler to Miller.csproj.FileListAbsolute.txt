@@ -9,6 +9,25 @@ C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\E
 C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.csproj.GenerateResource.Cache
 C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.exe
 C:\Users\xinren\Desktop\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.pdb
-D:\程序设计\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.exe.config
-D:\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.exe
-D:\程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.pdb
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.exe.config
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.exe
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.pdb
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.exe
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.pdb
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\bin\Debug\MathNet.Numerics.dll
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\bin\Debug\MathNet.Numerics.xml
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.csprojResolveAssemblyReference.cache
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\obj\Debug\Euler_to_Miller.Form1.resources
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\obj\Debug\Euler_to_Miller.Properties.Resources.resources
+D:\OneDrive\桌面\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.csproj.GenerateResource.Cache
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.exe.config
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.exe
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\bin\Debug\Euler to Miller.pdb
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\bin\Debug\MathNet.Numerics.dll
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\bin\Debug\MathNet.Numerics.xml
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler_to_Miller.Form1.resources
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler_to_Miller.Properties.Resources.resources
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.csproj.GenerateResource.cache
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.exe
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.pdb
+D:\整理后的程序设计\Euler to Miller\Euler to Miller\obj\Debug\Euler to Miller.csprojResolveAssemblyReference.cache
